@@ -74,55 +74,63 @@ No known issues at this time.
 			
 			
 	<div data-role="page" id="pagetwo">
-	<div data-role="header">
+		<div data-role="header">
 		<h1>Question 1</h1>
-	</div><!-- /header -->
+		</div><!-- /header -->
 
-	<div data-role="content">	
-		<p>Have you been experiencing a shortness of breath?</p>    
-                <a href="#two" onclick="asthmaAdd();" data-role="button"> Yes</a>
-                <a href="#two" data-role="button">No</a>	
-	</div><!-- /content -->
-     </div><!-- /page -->
+		<div data-role="content">	
+			<p>Have you been experiencing a shortness of breath?</p>    
+               	 	<a href="#pagethree" onclick="asthmaAdd();" data-role="button"> Yes</a>
+               	 	<a href="#pagethree" data-role="button">No</a>	
+		</div><!-- /content -->
+		
+    		div data-role="footer" data-position="fixed">
+			<p>Page 1</p>
+		</div><!-- /footer -->
+	</div><!--/ end of page 2 -->
 	     
 	     
-     <div data-role="page" id="two">
-	<div data-role="header">
+     <div data-role="page" id="pagethree">
+		<div data-role="header">
 		<h1>Question 2</h1>
-	</div><!-- /header -->
+		</div><!-- /header -->
 
-	<div data-role="content">	
-		<p>Do you have a fever?</p>    
-                <a href="#three"  onclick="coldAdd();" data-role="button"> Yes</a>
-                <a href="#three"  onclick="allergyAdd();" data-role="button">No</a>			
-	</div><!-- /content -->
-     </div><!-- /page -->    
+		<div data-role="content">	
+			<p>Have you been experiencing a shortness of breath?</p>    
+               	 	<a href="#pagefour" onclick="asthmaAdd();" data-role="button"> Yes</a>
+               	 	<a href="#pagefour" data-role="button">No</a>	
+		</div><!-- /content -->
+		
+    		div data-role="footer" data-position="fixed">
+			<p>Page 1</p>
+		</div><!-- /footer -->
+	</div><!--/ end of page 2 -->    
 	   
-     <div data-role="page" id="three">
+     <div data-role="page" id="pagefour">
 	<div data-role="header">
 		<h1>Question 3</h1>
 	</div><!-- /header -->
 
 	<div data-role="content">	
-		<p>Do you have a sore throat?</p>    
-                <a href="#four"  onclick="coldAdd();" data-role="button"> Yes</a>
-                <a href="#four"  onclick="allergyAdd();" data-role="button">No</a>		
+		<p>Are you experiencing trouble sleeping(caused by shortness of breath, coughing, or wheezing)?</p>    
+                <a href="#pagefive"  onclick="asthmaAdd();" data-role="button"> Yes</a>
+                <a href="#pagefive"  data-role="button">No</a>		
 	</div><!-- /content -->
      </div><!-- /page -->
 	     
-     <div data-role="page" id="four">
+     <div data-role="page" id="pagefive">
 	<div data-role="header">
 		<h1>Question 4</h1>
 	</div><!-- /header -->
 
 	<div data-role="content">	
-		<p>Are your symptoms seasonal or chronic?</p>    
-                <a href="#five"  onclick="allergyAdd();" data-role="button"> Yes</a>
-                <a href="#five"  onclick="coldAdd();" data-role="button">No</a>		
+		<p>Do you experience a whistling or wheezing sound when exhaling?</p>    
+                <a href="#pagesix"  onclick="asthmaAdd();" data-role="button"> Yes</a>
+                <a href="#pagesix"  onclick="coldAdd();" data-role="button">No</a>		
 	</div><!-- /content -->
      </div><!-- /page -->     
 	   	   
-     <div data-role="page" id="five">
+     <div data-role="page" id="pagesix">
 	<div data-role="header">
 		<h1>Results</h1>
 	</div><!-- /header -->
